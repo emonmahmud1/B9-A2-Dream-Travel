@@ -311,7 +311,17 @@ form select {
 
 }
 
-
+/* video section */
+.video-section{
+    margin-top: 100px;
+}
+.video-content{
+    display: flex;
+    gap: 70px;
+}
+.video-content .video-content-text , .video{
+    width: 50%;
+}
 
 
 
@@ -353,7 +363,7 @@ form select {
     }
 
     .popular-content,
-    .popular .popular-img {
+    .popular .popular-img , .video-content .video-content-text , .video{
         width: 100%;
     }
 
@@ -399,6 +409,11 @@ form select {
 
     .dicount-section .dicount-card {
         padding: 20px;
+    }
+
+    /* video section */
+    .video-content{
+        flex-direction: column;
     }
 
 }
