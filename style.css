@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.paragraph {}
+
+.btn-primary {
+    padding: 16px 25px;
+    border: none;
+    color: #FFF;
+    border-radius: 8px;
+    background: #FF5400;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+header,
+main {
+    max-width: 1170px;
+    /* min-width: 992px; */
+    margin: 0 auto;
+}
+
+header {
+    border: 2px solid;
+
+}
+
+/* header section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.hambarger {
+    display: none;
+}
+
+.nav-title {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+nav .menu-item ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+nav .menu-item ul a {
+    text-decoration: none;
+    color: #424247;
+}
+
+/* banner section */
+.banner-section {
+    /* border: 2px solid red; */
+    text-align: center;
+
+}
+
+.banner-img {
+    border: 2px solid red;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group13.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding: 100px 180px;
+
+}
+
+.banner-section .banner-heading {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.banner-section p {
+    color: #FFF;
+    font-size: 1rem;
+    margin-bottom: 45px;
+}
+
+form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    background-size: contain;
+    padding: 18px;
+    display: flex;
+    gap: 14px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form input {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+form select {
+    padding: 16px 80px 18px 15px;
+    border-radius: 10px;
+
+}
+
+
+/* responsive for mobile devices */
+@media screen and (max-width: 600px) {
+
+    header,
+    main {
+        margin: 5px 5px;
+    }
+
+    .banner-img {
+        padding: 0px;
+        padding: 32px 10px;
+        background-position: center;
+    }
+
+    .banner-section .banner-heading {
+        font-size: 1.4rem;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    .menu-item {
+        display: none;
+    }
+
+
+}
+
+.d-none {
+    display: none;
+}
