@@ -232,13 +232,13 @@ form select {
 }
 
 .choose-us-card .card-1 {
-   
+
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
 
 .choose-us-card .card-2 {
-    
+
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
@@ -247,7 +247,8 @@ form select {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
-.choose-us-card{
+
+.choose-us-card {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
@@ -256,16 +257,17 @@ form select {
 }
 
 /* dicount-section */
-.dicount-1{
+.dicount-1 {
     background-image: url(Images/Group39.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 30px;
     display: flex;
     justify-content: end;
-    
+
 }
-.dicount-2{
+
+.dicount-2 {
     margin-top: 30px;
     background-image: url(Images/Group40.png);
     background-size: cover;
@@ -273,7 +275,8 @@ form select {
     padding: 30px;
     display: flex;
 }
-.dicount-3{
+
+.dicount-3 {
     margin-top: 30px;
     background-image: url(Images/Group39.png);
     background-size: cover;
@@ -281,9 +284,9 @@ form select {
     padding: 30px;
     display: flex;
     justify-content: end;
-    
+
 }
- 
+
 .dicount-section .dicount-card {
     margin: 40px;
     width: 500px;
@@ -291,6 +294,21 @@ form select {
     border-radius: 16px;
     padding: 40px;
     background: rgba(255, 255, 255, 0.80);
+}
+
+.dicount-section .dicount-card .discout-icons {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+
+}
+
+.dicount-section .dicount-card .discount-price {
+    color: #FF5400;
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin: 10px auto;
+
 }
 
 
@@ -367,19 +385,21 @@ form select {
     .destination-places .img-7 {
         grid-column: 1 / span 12;
     }
-   /* dicount section */
-   .dicount-1, .dicount-2, .dicount-3{
-    height: 500px;
-    padding: 0;
-    background-position: center;
-    justify-content: center;
-    align-items:end;
-   }
 
-   .dicount-section .dicount-card {
-    border: 2px solid ;
-    padding: 20px;
-}
+    /* dicount section */
+    .dicount-1,
+    .dicount-2,
+    .dicount-3 {
+        height: 500px;
+        padding: 0;
+        background-position: center;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .dicount-section .dicount-card {
+        padding: 20px;
+    }
 
 }
 
