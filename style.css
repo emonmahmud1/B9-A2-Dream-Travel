@@ -41,6 +41,9 @@
     background: #f6eff1;
     color: #FF5400;
 }
+.travel-design{
+    color: #FF5400;
+}
 
 
 .card-title {
@@ -419,6 +422,48 @@ nav .menu-item ul a {
 
 .newsletter-images .save h3 {
     font-size: 2rem;
+}
+
+/* reviews section */
+.reviews-section{
+    margin-top: 100px;
+    text-align: center;
+}
+.customer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.customer-card{
+    width: 500px;
+    padding: 30px;
+    text-align: left;
+    margin: 20px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    border-radius: 10px;
+    background: rgba(233, 68, 68, 0.05);
+    box-shadow: 10px 10px 20px rgb(255, 84, 0,0.2);
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+.customer-card:hover{
+    box-shadow: none;
+}
+.customer-card .customer-icon{
+    background-color: cadetblue;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+.customer-card .customer-name{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.customer-card .review{
+    color: #FF5400;
+    margin-bottom: 10px;
 }
 
 /* footer section */
