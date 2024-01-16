@@ -143,6 +143,10 @@ nav .menu-item ul a {
 
 /* main section */
 
+.popular-tour-section{
+    margin-top: 100px;
+}
+
 .popular {
     display: flex;
     justify-content: space-between;
@@ -409,6 +413,27 @@ nav .menu-item ul a {
     font-size: 2rem;
 }
 
+/* footer section */
+footer{
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+   padding: 100px 200px;
+   margin-top: 100px;
+}
+.footer-icons{
+    margin-top: 30px;
+}
+.footer-icons a{
+    text-decoration: none;
+    color: black;
+}
+.footer-icons .fa-brands{
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+.footer-hr{
+    margin: 50px auto;
+}
 
 
 
@@ -522,6 +547,9 @@ nav .menu-item ul a {
         font-size: 1.2rem;
 
 
+    }
+    footer{
+        padding: 45px;
     }
 
 }
