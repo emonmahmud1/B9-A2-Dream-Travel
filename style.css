@@ -35,7 +35,13 @@
     font-weight: 800;
     font-size: 1rem;
     cursor: pointer;
+    transition: background .5s, color .5s ease-in-out;
 }
+.btn-primary:hover {
+    background: #f6eff1;
+    color: #FF5400;
+}
+
 
 .card-title {
     color: #131318;
