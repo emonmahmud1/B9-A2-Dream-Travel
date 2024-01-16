@@ -145,10 +145,11 @@ nav .menu-item ul a {
     padding: 18px;
     border-radius: 10px;
     border: none;
+    outline: none;
 }
 
 .banner-section form select {
-    padding: 16px 50px 18px 15px;
+    padding: 16px 60px 18px 15px;
     border-radius: 10px;
 
 }
@@ -401,6 +402,7 @@ nav .menu-item ul a {
     border: none;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
+    outline: none;
 
 }
 
